@@ -1,0 +1,33 @@
+# Third-party notices
+
+This project contains original code released under the MIT License (see
+`LICENSE`) and a vendored copy of the Fortuneo module from the Woob project.
+
+## Woob Fortuneo module
+
+- Path: `fortuneo_sidecar/vendor/woob_modules/fortuneo/`
+- Upstream: Woob, module `fortuneo`, version `202605011706`
+- Copyright: Gilles-Alexandre Quenot and Woob contributors
+- License: GNU Lesser General Public License, version 3 or later
+  (LGPL-3.0-or-later)
+
+The vendored files keep their original copyright and license headers. Local
+changes are documented in
+`fortuneo_sidecar/vendor/woob_modules/fortuneo/UPSTREAM.md`.
+
+The full license texts are available in:
+
+- `LICENSES/LGPL-3.0-or-later.txt`
+- `LICENSES/GPL-3.0-or-later.txt`
+
+## Woob runtime
+
+This project depends on Woob, distributed under the GNU Lesser General Public
+License, version 3 or later. Woob is installed as a separate dependency and is
+not vendored.
+
+## Trademarks
+
+Fortuneo is a trademark of its respective owner. This project is unofficial
+and is not affiliated with, endorsed by, or supported by Fortuneo or Crédit
+Mutuel Arkéa.

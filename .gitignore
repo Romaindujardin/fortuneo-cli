@@ -1,0 +1,36 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+build/
+dist/
+.eggs/
+
+# Packaging and local tooling
+*.whl
+*.tar.gz
+
+# Sidecar runtime data (credentials, cookies, OTP, state)
+.woob/
+.runtime/
+data/
+state.yml
+*.state.yml
+credentials.json
+otp.txt
+*.otp
+
+# Local secrets and scratch files
+.env
+.env.*
+*.local
+*.pem
+*.key
+*.log
+.DS_Store
